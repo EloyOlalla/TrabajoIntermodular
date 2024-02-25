@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso web</title>    
+    <link rel="stylesheet" href="../estilos/registro.css">
+</head>
+<body>
+    <video autoplay muted loop id="video">
+        <source src="../videos/registroFondo.mp4" type="video/mp4">
+        Tu navegador no soporta el vídeo
+    </video>
+    <div class="todo">
+        <div class="formulario">
+            <div class="div seleccionables">
+                <div id="btn"></div>
+                <button type="button" class="transicionable" onclick="login()">Log in</button>
+                <button type="button" class="transicionable" onclick="register()">Registro</button>
+            </div>
+            <form id="login" class="regDatos">
+                <input type="text" class="textoInputs" placeholder="Nombre usuario" name="nombre-usuario">
+                <input type="password" class="textoInputs" placeholder="Contraseña" name="contraseña">
+                <button class="botonFuncionalidad" type="submit">Iniciar sesión</button>
+            </form>
+
+            <form id="register" class="regDatos">
+                <input type="text" class="textoInputs" placeholder="Nombre usuario" name="nombre-usuario">
+                <input type="text" class="textoInputs" placeholder="Nombre" name="nombre">
+                <input type="text" class="textoInputs" placeholder="Apellidos" name="apellidos">
+                <input type="date" class="textoInputs" name="fecha-nacimiento">
+                <input type="password" class="textoInputs" placeholder="Contraseña" name="contraseña">
+                <button class="botonFuncionalidad" type="submit">Registrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/registro.js"></script>
+</body>
+</html>

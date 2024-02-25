@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.todo {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.formulario {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #000000;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: transform 1s ease-in-out; 
+}
+.formulario:hover {
+    transform: scale(1.2) translateY(20px);
+}
+.seleccionables {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #4a3b54;
+    border-radius: 30px;
+}
+.transicionable {
+    padding: 10px 32px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #052d9c, #8b0202);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.regDatos {
+    top: 130px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    height: 550px;
+}
+.textoInputs {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    margin-bottom: 15px;
+}
+.botonFuncionalidad {
+    width: 85%;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #052d9c, #8b0202);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#login {
+    left: 50px;
+}
+#register {
+    left: 450px;
+}

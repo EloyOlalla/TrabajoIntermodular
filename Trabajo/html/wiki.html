@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wikipedia</title>
+  <link rel="stylesheet" href="../estilos/wiki.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h2><a href="#">Cyber Maps Web</a></h2>
+      <ul class="nav-links">
+        <a href="../html/paginaPrincipal.html">
+          <li>Principal</li>
+        </a>
+        <a href="#queEs">
+          <li>Google maps</li>
+        </a>
+        <a href="wiki.html">
+          <li class="active">Buscar información</li>
+        </a>
+        <a href="">
+          <li>Juego mapas</li>
+        </a>
+        <a href="#sub">
+          <li>Suscríbete</li>
+        </a>
+      </ul>
+      <button class="navButton-container"><a href="../html/index_registro.html">Cerrar Sesión</a></button>
+    </nav>
+  </header>
+  <section class="wiki">
+    <div class="container">
+      <h3>Búsqueda en google</h3>
+      <img src="../imagenes/wiki-logo.png" alt="logo" />
+      <form class="form">
+        <input type="text" class="form-input" />
+        <button type="submit" class="submit-btn">search</button>
+      </form>
+    </div>
+    <!-- results -->
+    <div class="results"></div>
+  </section>
+  <script src="../js/wiki.js"></script>
+</body>
+
+</html>
